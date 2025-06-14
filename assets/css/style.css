@@ -31,6 +31,15 @@
     background-color: rgba(255, 255, 255, 0.616);
     background-blend-mode: color-burn;
 }
+.policy-bg {
+    background-image: url('../images/savekids3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    background-blend-mode: color-burn;
+}
+/* contact form styling*/
 .contact-form {
   max-width: 600px;
   margin: 40px auto;
@@ -89,6 +98,7 @@
 .contact-form button:hover {
   background-color: #ff7b00;
 }
+/*social icons styling*/
 .social-icons {
   margin-top: 10px;
 }
@@ -103,7 +113,7 @@
 .social-icons a:hover {
   color: #f7941e; 
 }
-
+/* home page */
 .element {
     display: block;
     color: rgb(11, 29, 29);
@@ -115,11 +125,11 @@
 iframe {
     margin-left: 250px;
 }
+/*table styling*/
 .table-container {
   overflow-x: auto;
   margin: 20px 0;
 }
-
 
 .styled-table {
   width: 100%;
@@ -196,4 +206,44 @@ nav li a:hover {
   .nav-menu {
     flex-direction: column;
   }
+}
+/* Policy Page Styling */
+.policy-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fdfdfc3d;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  color: #0a0a0a;
+}
+
+.policy-page h1 {
+  font-size: 2.2rem;
+  color: #c95000;
+  border-bottom: 2px solid #ffd48a;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.policy-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fffbea81;
+  border-left: 6px solid #f7941e;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.policy-section h2 {
+  font-size: x-large;
+  color: #050000;
+  margin-bottom: 10px;
+}
+
+.policy-section p {
+  margin: 0;
+  font-size: larger;
+  color: #070101;
 }
