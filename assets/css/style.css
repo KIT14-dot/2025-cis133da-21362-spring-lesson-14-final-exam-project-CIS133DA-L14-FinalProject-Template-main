@@ -23,6 +23,72 @@
     background-color: rgba(255, 255, 255, 0.616);
     background-blend-mode: color-burn;
 }
+.contact-bg {
+    background-image: url('../images/savekids2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    background-blend-mode: color-burn;
+}
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fffbea5d;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccccccc0;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff9f1c;
+  outline: none;
+  box-shadow: 0 0 5px #ffcf8f;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #ff9f1c;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff7b00;
+}
 .social-icons {
   margin-top: 10px;
 }
