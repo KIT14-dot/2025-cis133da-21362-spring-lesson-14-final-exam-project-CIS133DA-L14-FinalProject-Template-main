@@ -15,6 +15,29 @@
     background-color: rgba(255, 255, 255, 0.616);
     background-blend-mode: color-burn;
 }
+.help-bg {
+    background-image: url('../images/savekids.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    background-blend-mode: color-burn;
+}
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  font-size: 100px;
+  color: #555;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f7941e; 
+}
+
 .element {
     display: block;
     color: rgb(11, 29, 29);
@@ -25,6 +48,10 @@
 }
 iframe {
     margin-left: 250px;
+}
+.table-container {
+  overflow-x: auto;
+  margin: 20px 0;
 }
 
 
